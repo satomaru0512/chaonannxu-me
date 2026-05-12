@@ -1,10 +1,12 @@
 #!/bin/sh
-#PBS -l select=1:ncpus=2:ngpus=2:mem=32gb
+#PBS -l select=1:ncpus=2:ngpus=2:mem=128gb
 #PBS -q CA_001
 #PBS -N vaspgpu
 #PBS -l walltime=1:00:00
 #PBS -M kawahal@dc.tohoku.ac.jp
 #PBS -m abe
+
+#INCARにNSIM = 64を追加(バンドの並列計算数)
 
 IN_DIR="${PBS_O_WORKDIR}"
 
