@@ -1,3 +1,9 @@
+# External packages (separate git repos)
+pydefect/
+
+# Research calculation data (large)
+uchiyama/
+
 # Large tool directories
 miniconda3/
 .pyenv-gpu/
@@ -31,6 +37,12 @@ XDATCAR
 
 # Sensitive / personal files
 .claude.json
+.claude/.credentials.json
+.claude/backups/
+.claude/history.jsonl
+.claude/ide/
+.claude/mcp-needs-auth-cache.json
+.claude/file-history/
 .bash_history*
 .viminfo
 .lesshst
