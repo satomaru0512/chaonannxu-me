@@ -1,0 +1,9 @@
+version: 0.9.5
+task: defect
+xc: pbesol
+input_options:
+  kpt_density: 1.8
+  overridden_potcar: {}
+  charge: -3
+user_incar_settings:
+  NSW: 300

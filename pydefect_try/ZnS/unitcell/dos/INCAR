@@ -1,0 +1,40 @@
+# algorithm
+ALGO  =  Normal
+
+# accuracy
+PREC   =  Normal
+LREAL  =  False
+EDIFF  =  1e-05
+ENCUT  =  276.723
+LASPH  =  True
+NELM   =  100
+
+# ionic relaxation
+ISIF    =  0
+IBRION  =  2
+NSW     =  1
+
+# occupation
+ISMEAR  =  -4
+SIGMA   =  0.1
+
+# IO control
+LWAVE   =  False
+LCHARG  =  False
+LAECHG  =  True
+
+# analyzer
+NBANDS  =  34
+NEDOS   =  3202
+EMAX    =  20.0
+EMIN    =  -12.01
+LORBIT  =  11
+
+# dft parameter
+GGA  =  Ps
+
+# electrostatic
+LVTOT  =  True
+
+# parallel
+KPAR  =  1

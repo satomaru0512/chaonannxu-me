@@ -1,0 +1,12 @@
+version: 0.9.5
+task: structure_opt
+xc: hse
+input_options:
+  kpt_density: 5.0
+  overridden_potcar: {}
+  time_reversal: true
+user_incar_settings:
+  ENCUT: 400.0
+  NSW: 300
+  AEXX: 0.36
+  HFSCREEN: 0.2

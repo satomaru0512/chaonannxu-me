@@ -1,0 +1,15 @@
+target: CsCl
+A:
+  chem_pot:
+    Cl: 0.0
+    Cs: -3.88291
+  competing_phases:
+  - Cl
+  impurity_phases: []
+B:
+  chem_pot:
+    Cl: -3.88291
+    Cs: 0.0
+  competing_phases:
+  - Cs
+  impurity_phases: []

@@ -1,0 +1,11 @@
+version: 0.9.5
+task: defect
+xc: hse
+input_options:
+  kpt_density: 1.8
+  overridden_potcar: {}
+  charge: 2
+user_incar_settings:
+  NSW: 300
+  AEXX: 0.36
+  HFSCREEN: 0.2

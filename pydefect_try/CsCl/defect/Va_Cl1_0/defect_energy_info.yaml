@@ -1,0 +1,9 @@
+name: Va_Cl1
+charge: 0
+formation_energy: 4.231024992500004
+atom_io:
+  Cl: -1
+energy_corrections:
+  pc term: 0.0
+  alignment term: -0.0
+is_shallow: False

@@ -1,0 +1,12 @@
+S32:
+  energy: -140.51249861
+  source: S_mp-77
+Zn1S1:
+  energy: -7.584924
+  source: ZnS_mp-10695
+Zn2:
+  energy: -3.17111193
+  source: Zn_mp-79
+Zn2S2:
+  energy: -15.16296915
+  source: ZnS_unitcell

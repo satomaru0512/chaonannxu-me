@@ -1,0 +1,9 @@
+name: Va_Cs1
+charge: 1
+formation_energy: 4.90668603375001
+atom_io:
+  Cs: -1
+energy_corrections:
+  pc term: 0.21868203433873634
+  alignment term: -0.3472685615399381
+is_shallow: True

@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=2:ngpus=2:mem=128gb
+#PBS -q CA_001
+#PBS -l walltime=1:00:00
+#PBS -M sato.ryo.s6@dc.tohoku.ac.jp
+#PBS -m abe
+#PBS -j oe
+
+# ※ -N（ジョブ名）は投入時にディレクトリ名に書き換えるため、ここからは削っています。
+
+# 実行時の各ターゲットディレクトリに移動
+cd "${PBS_O_WORKDIR}"
+
+module -s load nvhpc/25.3
+VASP_EXE=/work/app/VASP6/vasp.6.5.1_gpu/bin/vasp_std
+
+echo "==========================================="
+echo "Processing: $(pwd)"
+echo "Started at: $(date)"
+echo "==========================================="
+
+# VASPの実行
+mpirun -np 2 $VASP_EXE > vasp.out 2> vasp.err
+
+echo "Completed at $(date)"

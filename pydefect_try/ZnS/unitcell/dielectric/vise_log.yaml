@@ -1,0 +1,11 @@
+version: 0.9.5
+task: dielectric_dfpt
+xc: pbesol
+input_options:
+  kpt_density: 2.5
+  overridden_potcar: {}
+  vbm_cbm:
+  - 2.2696
+  - 4.6096
+  band_gap: 2.3400000000000003
+user_incar_settings: {}

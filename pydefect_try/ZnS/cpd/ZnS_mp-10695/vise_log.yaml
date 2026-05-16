@@ -1,0 +1,11 @@
+version: 0.9.5
+task: structure_opt
+xc: pbesol
+input_options:
+  kpt_density: 2.5
+  overridden_potcar: {}
+  time_reversal: true
+  band_gap: 2.0192
+user_incar_settings:
+  ENCUT: 400.0
+  NSW: 300

@@ -1,0 +1,15 @@
+target: ZnS
+A:
+  chem_pot:
+    S: 0.0
+    Zn: -1.60491
+  competing_phases:
+  - S
+  impurity_phases: []
+B:
+  chem_pot:
+    S: -1.60491
+    Zn: 0.0
+  competing_phases:
+  - Zn
+  impurity_phases: []

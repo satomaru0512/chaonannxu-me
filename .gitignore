@@ -1,0 +1,65 @@
+# Large tool directories
+miniconda3/
+.pyenv-gpu/
+.pyenv-super/
+.vscode-server/
+.cache/
+.local/
+.dotnet/
+.copilot/
+.mozilla/
+.nv/
+.anaconda/
+.conda/
+
+# Large installer files
+Miniconda3-*.sh
+
+# VASP potentials (large)
+VASP_potential/
+
+# VASP large binary/output files
+WAVECAR
+PROCAR
+CHGCAR
+CHG
+DOSCAR
+TMPCAR
+IBZKPT
+EIGENVAL
+XDATCAR
+
+# Sensitive / personal files
+.claude.json
+.bash_history*
+.viminfo
+.lesshst
+.gnuplot_history
+.wget-hsts
+.emacs
+.zshrc
+.bashrc
+.bash_profile
+.bash_logout
+.pmgrc.yaml
+
+# Editor / IDE
+.vim/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,145 @@
+ running    2 mpi-ranks, on    1 nodes
+ distrk:  each k-point on    1 cores,    2 groups
+ distr:  one band on    1 cores,    1 groups
+ Offloading initialized ...    2 GPUs detected
+ vasp.6.5.1 10Mar25 (build May 13 2025 11:33:44) complex                         
+ POSCAR found type information on POSCAR ZnO Na
+ POSCAR found :  3 types and     108 ions
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     You requested a magnetic or noncollinear calculation, but did not       |
+|     specify the initial magnetic moment with the MAGMOM tag. Note that      |
+|     a default of 1 will be used for all atoms. This ferromagnetic setup     |
+|     may break the symmetry of the crystal, in particular it may rule        |
+|     out finding an antiferromagnetic solution. Thence, we recommend         |
+|     setting the initial magnetic moment manually or verifying carefully     |
+|     that this magnetic setup is desired.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ scaLAPACK will be used selectively (only on CPU)
+ LDA part: xc-table for (Slater+PW92), standard interpolation
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms           ort
+SDA:   1    -0.675032303252E+03   -0.67503E+03    0.00000E+00  2520   0.320E-03   0.000E+00
+ gam= 0.000 g(H,U,f)=  0.459E-04 0.261E-03 0.133E-04 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+ gam= 0.000 trial= 0.400  step=  0.4862 mean=  0.4000
+CGA:   2    -0.675032380999E+03   -0.77747E-04   -0.77730E-04  2520   0.211E-03   0.203E-06
+ gam= 0.659 g(H,U,f)=  0.521E-04 0.142E-03 0.171E-04 ort(H,U,f) =-0.364E-04 0.516E-04-0.150E-04
+ gam= 0.659 trial= 0.409  step=  0.6972 mean=  0.4086
+CGA:   3    -0.675032454520E+03   -0.73521E-04   -0.73556E-04  2520   0.822E-04  -0.232E-06
+ gam= 0.390 g(H,U,f)=  0.596E-04 0.222E-04 0.373E-06 ort(H,U,f) =-0.230E-04 0.238E-04-0.101E-05
+ gam= 0.390 trial= 0.437  step=  0.5218 mean=  0.4375
+CGA:   4    -0.675032475954E+03   -0.21434E-04   -0.21424E-04  2520   0.129E-04   0.235E-06
+ gam= 0.156 g(H,U,f)=  0.111E-04 0.170E-05 0.344E-07 ort(H,U,f) =-0.534E-05 0.556E-05 0.205E-07
+ gam= 0.156 trial= 0.446  step=  0.5299 mean=  0.4459
+CGA:   5    -0.675032479355E+03   -0.34011E-05   -0.34156E-05  2520   0.377E-05  -0.342E-06
+ gam= 0.293 g(H,U,f)=  0.308E-05 0.660E-06 0.324E-07 ort(H,U,f) =-0.148E-05 0.110E-05 0.361E-07
+ gam= 0.293 trial= 0.454  step=  0.5285 mean=  0.4543
+ final diagonalization occupied
+   1 F= -.67503248E+03 E0= -.67501550E+03  d E =-.675032E+03  mag=     1.4442
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.610E-03 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.610E-03
+ bond charge predicted
+ wavefunctions rotated
+ writing wavefunctions
+       N       E                     dE             d eps       ncg     rms           ort
+SDA:   1    -0.675018617100E+03    0.13859E-01    0.00000E+00  2520   0.310E-01   0.000E+00
+ gam= 0.000 g(H,U,f)=  0.303E-01 0.652E-03 0.716E-04 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+ gam= 0.000 trial= 0.462  step=  0.7783 mean=  0.4617
+CGA:   2    -0.675030694830E+03   -0.12078E-01   -0.12075E-01  2520   0.881E-02   0.161E-04
+ gam= 0.284 g(H,U,f)=  0.596E-02 0.222E-02 0.631E-03 ort(H,U,f) = 0.114E-02-0.921E-03-0.206E-03
+ gam= 0.284 trial= 0.493  step=  0.3919 mean=  0.4934
+CGA:   3    -0.675032426429E+03   -0.17316E-02   -0.17266E-02  2520   0.195E-02  -0.231E-04
+ gam= 0.222 g(H,U,f)=  0.129E-02 0.514E-03 0.152E-03 ort(H,U,f) = 0.103E-02-0.761E-03-0.294E-03
+ gam= 0.222 trial= 0.483  step=  0.4090 mean=  0.4832
+CGA:   4    -0.675032824775E+03   -0.39835E-03   -0.39846E-03  2520   0.234E-03   0.116E-05
+ gam= 0.120 g(H,U,f)=  0.211E-03 0.214E-04 0.144E-05 ort(H,U,f) = 0.169E-04-0.767E-05-0.809E-05
+ gam= 0.120 trial= 0.476  step=  0.5316 mean=  0.4758
+CGA:   5    -0.675032886988E+03   -0.62213E-04   -0.62232E-04  2520   0.542E-04  -0.717E-06
+ gam= 0.232 g(H,U,f)=  0.466E-04 0.742E-05 0.121E-06 ort(H,U,f) =-0.832E-05 0.752E-05 0.834E-07
+ gam= 0.232 trial= 0.481  step=  0.4873 mean=  0.4814
+CGA:   6    -0.675032900145E+03   -0.13157E-04   -0.13157E-04  2520   0.132E-04   0.146E-06
+ gam= 0.244 g(H,U,f)=  0.103E-04 0.285E-05 0.195E-07 ort(H,U,f) =-0.418E-05 0.437E-05-0.441E-07
+ gam= 0.244 trial= 0.482  step=  0.5481 mean=  0.4820
+CGA:   7    -0.675032903771E+03   -0.36260E-05   -0.36271E-05  2520   0.465E-05  -0.367E-07
+ gam= 0.352 g(H,U,f)=  0.343E-05 0.113E-05 0.939E-07 ort(H,U,f) =-0.211E-05 0.207E-05 0.537E-08
+ gam= 0.352 trial= 0.489  step=  0.5681 mean=  0.4886
+ final diagonalization occupied
+   2 F= -.67503290E+03 E0= -.67501591E+03  d E =-.424415E-03  mag=     1.4449
+ trial-energy change:   -0.000424  1 .order   -0.000413   -0.000610   -0.000215
+ step:   1.5443(harm=  1.5443)  dis= 0.00296  next Energy=  -675.032951 (dE=-0.471E-03)
+ bond charge predicted
+ wavefunctions rotated
+ writing wavefunctions
+       N       E                     dE             d eps       ncg     rms           ort
+SDA:   1    -0.675028727898E+03    0.41722E-02    0.00000E+00  2520   0.921E-02   0.000E+00
+ gam= 0.000 g(H,U,f)=  0.900E-02 0.186E-03 0.180E-04 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+ gam= 0.000 trial= 0.497  step=  0.7795 mean=  0.4965
+CGA:   2    -0.675032316781E+03   -0.35889E-02   -0.35888E-02  2520   0.258E-02   0.390E-06
+ gam= 0.280 g(H,U,f)=  0.177E-02 0.626E-03 0.184E-03 ort(H,U,f) = 0.315E-03-0.258E-03-0.567E-04
+ gam= 0.280 trial= 0.525  step=  0.3933 mean=  0.5248
+CGA:   3    -0.675032824709E+03   -0.50793E-03   -0.50697E-03  2520   0.577E-03  -0.210E-05
+ gam= 0.224 g(H,U,f)=  0.381E-03 0.152E-03 0.447E-04 ort(H,U,f) = 0.301E-03-0.219E-03-0.849E-04
+ gam= 0.224 trial= 0.512  step=  0.4079 mean=  0.5117
+CGA:   4    -0.675032942364E+03   -0.11765E-03   -0.11769E-03  2520   0.722E-04   0.222E-06
+ gam= 0.125 g(H,U,f)=  0.651E-04 0.643E-05 0.610E-06 ort(H,U,f) = 0.547E-05-0.234E-05-0.291E-05
+ gam= 0.125 trial= 0.501  step=  0.5390 mean=  0.5013
+CGA:   5    -0.675032961810E+03   -0.19446E-04   -0.19452E-04  2520   0.172E-04  -0.352E-06
+ gam= 0.238 g(H,U,f)=  0.150E-04 0.213E-05 0.286E-07 ort(H,U,f) =-0.281E-05 0.242E-05 0.420E-07
+ gam= 0.238 trial= 0.505  step=  0.4842 mean=  0.5051
+CGA:   6    -0.675032965946E+03   -0.41361E-05   -0.41366E-05  2520   0.439E-05   0.495E-07
+ gam= 0.256 g(H,U,f)=  0.353E-05 0.854E-06 0.455E-08 ort(H,U,f) =-0.139E-05 0.144E-05 0.341E-08
+ gam= 0.256 trial= 0.503  step=  0.5353 mean=  0.5030
+ final diagonalization occupied
+   3 F= -.67503297E+03 E0= -.67501596E+03  d E =-.486590E-03  mag=     1.4455
+ curvature:  -0.77 expect dE=-0.312E-03 dE for cont linesearch -0.791E-06
+ trial: gam= 0.62136 g(F)=  0.404E-03 g(S)=  0.000E+00 ort = 0.250E-04 (trialstep = 0.101E+01)
+ search vector abs. value=  0.671E-03
+ bond charge predicted
+ wavefunctions rotated
+ writing wavefunctions
+       N       E                     dE             d eps       ncg     rms           ort
+SDA:   1    -0.675020712489E+03    0.12249E-01    0.00000E+00  2520   0.274E-01   0.000E+00
+ gam= 0.000 g(H,U,f)=  0.266E-01 0.685E-03 0.156E-03 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+ gam= 0.000 trial= 0.506  step=  0.7554 mean=  0.5062
+CGA:   2    -0.675031075333E+03   -0.10363E-01   -0.10355E-01  2520   0.101E-01   0.495E-04
+ gam= 0.367 g(H,U,f)=  0.561E-02 0.326E-02 0.119E-02 ort(H,U,f) = 0.172E-02-0.126E-02-0.412E-03
+ gam= 0.367 trial= 0.531  step=  0.3554 mean=  0.5311
+CGA:   3    -0.675032881643E+03   -0.18063E-02   -0.17904E-02  2520   0.157E-02   0.313E-06
+ gam= 0.156 g(H,U,f)=  0.119E-02 0.290E-03 0.916E-04 ort(H,U,f) = 0.946E-03-0.643E-03-0.303E-03
+ gam= 0.156 trial= 0.514  step=  0.4474 mean=  0.5136
+CGA:   4    -0.675033233328E+03   -0.35168E-03   -0.35175E-03  2520   0.221E-03   0.992E-06
+ gam= 0.140 g(H,U,f)=  0.199E-03 0.205E-04 0.936E-06 ort(H,U,f) = 0.120E-04-0.692E-05-0.410E-05
+ gam= 0.140 trial= 0.507  step=  0.5115 mean=  0.5069
+CGA:   5    -0.675033289792E+03   -0.56464E-04   -0.56465E-04  2520   0.482E-04  -0.525E-06
+ gam= 0.218 g(H,U,f)=  0.412E-04 0.677E-05 0.150E-06 ort(H,U,f) =-0.431E-05 0.376E-05 0.326E-07
+ gam= 0.218 trial= 0.507  step=  0.4884 mean=  0.5074
+CGA:   6    -0.675033301529E+03   -0.11736E-04   -0.11735E-04  2520   0.121E-04  -0.113E-06
+ gam= 0.251 g(H,U,f)=  0.937E-05 0.273E-05 0.173E-07 ort(H,U,f) =-0.311E-05 0.296E-05 0.353E-07
+ gam= 0.251 trial= 0.505  step=  0.5160 mean=  0.5055
+CGA:   7    -0.675033304647E+03   -0.31186E-05   -0.31184E-05  2520   0.420E-05   0.644E-07
+ gam= 0.347 g(H,U,f)=  0.308E-05 0.107E-05 0.497E-07 ort(H,U,f) =-0.173E-05 0.175E-05 0.469E-07
+ gam= 0.347 trial= 0.507  step=  0.5527 mean=  0.5065
+ final diagonalization occupied
+   4 F= -.67503330E+03 E0= -.67501627E+03  d E =-.338702E-03  mag=     1.4465
+ trial-energy change:   -0.000339  1 .order   -0.000338   -0.000423   -0.000254
+ step:   2.5160(harm=  2.5160)  dis= 0.00643  next Energy=  -675.033494 (dE=-0.528E-03)
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions
